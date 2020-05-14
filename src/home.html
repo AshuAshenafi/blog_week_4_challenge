@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>bootstrap</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+          integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <!--    google fonts here -->
+    <link href="https://fonts.googleapis.com/css2?family=Baloo+Chettan+2&family=Cormorant+Upright:wght@700&family
+    =Indie+Flower&family=Pacifico&family=Righteous&family=Shadows+Into+Light&display=swap" rel="stylesheet">
+    <!--    external css style file for home-->
+    <link rel="stylesheet" href="styles/homePurpose.css">
+</head>
+<body>
+<!--nav bar-->
+
+    <nav id="mainNavbar" class="navbar navbar-dark navbar-expand-md py-0 fixed-top">
+        <div class="container nav-part">
+            <a href="#" class="navbar-brand">HOME <span>|</span></a>
+            <button class="navbar-toggler" data-toggle="collapse" data-target="#navLinks"
+                    aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navLinks">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a href="" class="nav-link">About the Bootcamp <span>|</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="" class="nav-link">Blog <span>|</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="" class="nav-link">About Program Design & Algorithms <span>|</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="" class="nav-link">About Object-oriented Java <span>|</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="authors.html" class="nav-link">Authors <span>|</span></a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+<!--nav bar-->
+<div class="container lower-part">
+    <div class="head-title">
+        <h1>Blog Home</h1>
+    </div>
+
+<!--first post content -->
+
+<div class="post">
+
+    <h2>About Bootcamp</h2>
+    <div class="date">28 July 2017</div>
+    <p class="quote">Sausage biltong pork loin chicken. Short loin biltong short and now and then.
+        <a href="AboutBootcamp.html">View More</a>
+    </p>
+
+</div>
+<hr>
+<!--first post content -->
+
+<!--second post content -->
+    <div class="post">
+
+        <h2>About Program Design and Algorithms</h2>
+        <div class="date">28 July 2017</div>
+        <p class="quote">Sausage biltong pork loin chicken. Short loin biltong short and now.
+            <a href="AboutBootcamp.html">View More</a>
+        </p>
+
+    </div>
+    <hr>
+
+
+    <div class="post">
+
+        <h2>About Object-oriented Java</h2>
+        <div class="date">28 July 2017</div>
+        <p class="quote">Sausage biltong pork loin chicken. Short loin biltong short and now.
+            <a href="AboutBootcamp.html">View More</a>
+        </p>
+
+    </div>
+    <hr>
+
+    <div class="post">
+
+        <h2>Inheritance</h2>
+        <div class="date">28 July 2017</div>
+        <p class="quote">Sausage biltong pork loin chicken. Short loin biltong short and now.
+            <a href="AboutBootcamp.html">View More</a>
+        </p>
+
+    </div>
+    <hr>
+
+    <div class="post">
+
+        <h2>Abstraction</h2>
+        <div class="date">28 July 2017</div>
+        <p class="quote">Sausage biltong pork loin chicken. Short loin biltong short and now.
+            <a href="AboutBootcamp.html">View More</a>
+        </p>
+
+    </div>
+    <hr>
+
+    <div class="post">
+
+        <h2>Encapsulation</h2>
+        <div class="date">28 July 2017</div>
+        <p class="quote">Sausage biltong pork loin chicken. Short loin biltong short and now.
+            <a href="AboutBootcamp.html">View More</a>
+        </p>
+
+    </div>
+    <hr>
+
+</div>
+<!--jquery and js links-->
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
+
+<!--javascript and jquery code together for nav bar when user scrolls-->
+<script>
+    $(function(){
+        $(document).scroll(function(){
+            var $nav = $("#mainNavbar");
+            $nav.toggleClass("scrolled", $(this).scrollTop() > $nav.height());
+        });
+    });
+
+</script>
+</body>
+</html>

@@ -35,3 +35,9 @@ body {
 #description {
 
 }
+h3 {
+    color: darkred;
+}
+.paragraphTitle {
+    font-weight: bolder;
+}

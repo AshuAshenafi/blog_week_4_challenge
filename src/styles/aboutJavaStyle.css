@@ -38,3 +38,7 @@ body {
 .paragraphTitle {
     font-weight: bolder;
 }
+
+h3 {
+    color: darkred;
+}

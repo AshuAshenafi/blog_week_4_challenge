@@ -1,6 +1,5 @@
 body{
-    background-color: beige;
-    background-repeat: no-repeat;
+    background: url("../images/backGround_sea.jpg");
     background-size: cover;
     font-family: "Nunito", sans-serif;
     /*border: 20px solid #bdc3c7;*/

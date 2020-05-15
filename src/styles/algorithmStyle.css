@@ -32,7 +32,8 @@ body {
     background-color: transparent;
 
 }
-#description {
+#description.p {
+    /*color: beige;*//
 
 }
 .paragraphTitle {

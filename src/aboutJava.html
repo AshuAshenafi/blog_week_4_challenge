@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>bootstrap</title>
+    <title>object-oriented Java</title>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
           integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <link rel="stylesheet" href="styles/aboutJavaStyle.css">
@@ -12,34 +12,24 @@
 
 <nav id="mainNavbar" class="navbar navbar-dark navbar-expand-md py-0 fixed-top" style="margin-bottom: 20px">
     <div class="container nav-part">
+        <a href="home.html" class="nav-link">HOME <span>|</span></a>
+        <button class="navbar-toggler" data-toggle="collapse" data-target="#navLinks"
+                aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
         <div class="collapse navbar-collapse" id="navLinks">
             <ul class="navbar-nav">
                 <li class="nav-item">
-                    <a href="home.html" class="nav-link">HOME <span>|</span></a>
-                </li>
-
-                <li class="nav-item">
                     <a href="aboutBootcamp.html" class="nav-link">About the Bootcamp <span>|</span></a>
-                    <!--                    <button class="navbar-toggler" data-toggle="collapse" data-target="#navLinks"-->
-                    <!--                            aria-label="Toggle navigation">-->
-                    <!--                        <span class="navbar-toggler-icon"></span>-->
-                    <!--                    </button>-->
                 </li>
-                <!--                <li class="nav-item">-->
-                <!--                    <a href="" class="nav-link">Blog <span>|</span></a>-->
-                <!--                </li>-->
 
                 <li class="nav-item">
                     <a href="algorithms.html" class="nav-link">About Program Design & Algorithms <span>|</span></a>
-
                 </li>
 
                 <li class="nav-item">
                     <a href="#" class="navbar-brand">About Object-oriented Java <span>|</span></a>
-                    <button class="navbar-toggler" data-toggle="collapse" data-target="#navLinks"
-                            aria-label="Toggle navigation">
-                        <span class="navbar-toggler-icon"></span>
-                    </button>
                 </li>
 
                 <li class="nav-item">
@@ -55,16 +45,16 @@
     <h3 class="text-center display-5">About Object-oriented Java</h3>
     <br>
     <div class="row no-border justify-content-around">
-        <div id="description" class="col-sm-8 " style="color: white">
+        <div id="description" class="col-sm-8">
 
-            <p style="color: white">
+            <p>
                 The following four features are the main OOPs Concepts that you must learn to understand the Object
                 Oriented Programming in Java</p>
             <ol>
                 <li>Abstraction</li>
                 <li>Encapsulation</li>
-                <li>Encapsulation</li>
-                <li>Encapsulation</li>
+                <li>Inheritance</li>
+                <li>Polymorphism</li>
             </ol>
             <p>
                 <span class="paragraphTitle">Abstraction</span>
@@ -84,7 +74,7 @@
                 creating class, you are doing encapsulation.
             </p>
             <p>
-                <span class="paragraphTitle">     How to</span>
+                <span class="paragraphTitle">How to</span>
                 <br>
             <ol>
                 <li>
@@ -127,10 +117,7 @@
                 here we cannot give implementation to this method as we do not know which Animal class would extend
                 Animal class. So, we make this method abstract.
             </p>
-
         </div>
-
-
     </div>
 </div>
 

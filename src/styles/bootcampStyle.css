@@ -33,9 +33,15 @@ body {
 
 }
 #description {
-
+    color: beige;
 }
-h3 {
+
+#description2 {
+    color: beige;
+}
+
+h2 {
+
     color: darkred;
 }
 .paragraphTitle {
